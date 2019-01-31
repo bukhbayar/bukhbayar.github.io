@@ -225,8 +225,11 @@ License: https://www.wowthemes.net/freebies-license/
      font-family:Righteous;
 }
  .mainheading h1.posttitle {
-     font-weight:700;
-     margin-bottom:1rem;
+    font-weight:400;
+    font-size: 30px;
+    margin-bottom:1rem;
+    color: rgba(0,0,0,.68);
+    font-style: italic;
 }
  .footer {
      border-top:1px solid rgba(0,0,0,.05)!important;
@@ -427,7 +430,7 @@ License: https://www.wowthemes.net/freebies-license/
      text-transform:uppercase;
 }
  .post-top-meta .btn.follow {
-     margin-left:2px;
+     margin-left:10px;
      margin-top:-4px;
 }
  .alertbar {
