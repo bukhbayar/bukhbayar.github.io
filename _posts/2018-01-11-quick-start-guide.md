@@ -4,6 +4,7 @@ title:  "Quick Start Guide"
 author: bukhbayar
 categories: [ Jekyll, tutorial ]
 image: assets/images/12.jpg
+duration: 10
 featured: true
 hidden: true
 ---
