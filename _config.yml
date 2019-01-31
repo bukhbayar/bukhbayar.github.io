@@ -7,18 +7,17 @@ favicon: 'assets/images/logo.png'
 baseurl: ""
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
-
+mailchimp-list: 'https://mc.us14.list-manage.com/subscribe/post?u=7d32137885f6a0cea7bb073d8&amp;id=fcdca7faa6'
 # Authors
 authors:
-  sal:
+  bukhbayar:
     name: Bukhbayar Purevsuren
     display_name: Bukhbayar
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: bokhbayar@gmail.com
     web: helloworld.mn
     twitter: https://twitter.com/bokhoo
-    description: "A website hosted with github pages"
+    description: ""
 # Plugins
 plugins: 
   - jekyll-paginate
