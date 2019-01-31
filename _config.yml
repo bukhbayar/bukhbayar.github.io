@@ -1,19 +1,21 @@
+
 # Site
-name: "Blog"
+
+name: "Hello World"
 title: "Hello World"
-description: "A website hosted with github pages"
+description: ""
 meta_description: "A website hosted with github pages"
 logo: 'assets/images/logo.png'
 favicon: '/favicon.ico'
 baseurl: ""
 google_analytics: 'UA-33110211-1'
-# disqus: 'demowebsite'
+disqus: 'demowebsite'
 mailchimp-list: 'https://helloworld.us14.list-manage.com/subscribe?u=7d32137885f6a0cea7bb073d8&id=fcdca7faa6'
 # Authors
 authors:
   bukhbayar:
     name: Bukhbayar Purevsuren
-    display_name: Bukhbayar
+    display_name: Buku
     gravatar: bc1aff1eabac45bb90eff3419993e95f
     email: bokhbayar@gmail.com
     web: https://helloworld.mn
