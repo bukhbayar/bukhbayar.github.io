@@ -159,10 +159,11 @@ License: https://www.wowthemes.net/freebies-license/
      overflow:hidden!important;
 }
  span.post-name,span.post-date,span.author-meta {
-     display:inline-block;
+    display:inline-block;
 }
  span.post-date,span.post-read {
-     color:rgba(0,0,0,.44);
+    color:rgba(0,0,0,.54);
+    font-weight: 400;
 }
  span.post-read-more {
      align-items:center;
@@ -408,11 +409,10 @@ License: https://www.wowthemes.net/freebies-license/
 }
  .btn.follow {
     border-color:#02B875;
-    /* color:#1C9963; */
     padding:0px 10px;
     text-align:center;
     border-radius:4px;
-    font-size:8px;
+    font-size:11px;
     display:inline-block;
 }
  .btn.subscribe {
@@ -427,7 +427,7 @@ License: https://www.wowthemes.net/freebies-license/
      text-transform:uppercase;
 }
  .post-top-meta .btn.follow {
-     margin-left:5px;
+     margin-left:2px;
      margin-top:-4px;
 }
  .alertbar {
