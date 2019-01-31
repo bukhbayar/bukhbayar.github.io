@@ -2,7 +2,6 @@
 # Site
 
 name: "Hello World"
-title: "Hello World"
 description: ""
 meta_description: "A website hosted with github pages"
 logo: 'assets/images/logo.png'
