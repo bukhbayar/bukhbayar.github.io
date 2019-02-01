@@ -49,8 +49,9 @@ post_class: post-template
 			</div>
 
 			<!-- Post Featured Image -->
-			{% if page.image %}<img class="featured-image img-fluid" src="{% if page.image contains " ://" %}{{ page.image }}{%
-			 else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">{% endif %}
+			{% if page.image %}
+				<img class="featured-image img-fluid" src="{% if page.image contains " ://" %}{{ page.image }}{%else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">				
+			{% endif %}
 			<!-- End Featured Image -->
 
 			<!-- Post Content -->
@@ -91,8 +92,6 @@ post_class: post-template
 <!-- End Article
 ================================================== -->
 
-
-
 <!-- Begin Comments
 ================================================== -->
 {% if page.comments != false %}
@@ -107,17 +106,4 @@ post_class: post-template
 <!--End Comments
 ================================================== -->
 
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
-<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
-
-<textarea id="description" name="description" class="form-control" rows="8"></textarea>
-
-<script>
-	var simplemde = new SimpleMDE({
-		toolbar: ["bold", "italic", "heading", "|", "quote", "unordered-list", "ordered-list", "clean-block", "link", "image", "code", "table", "|", "preview"],
-	});
-
-	simplemde.isPreviewActive(); // returns boolean
-</script>
+{% include editor.html %}
