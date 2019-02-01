@@ -221,9 +221,9 @@ pre {
      margin-top:3px;
      cursor:pointer;
 }
- .mediumnavigation .navbar-brand img {
-     max-height:30px;
-     margin-right:5px;
+.mediumnavigation .navbar-brand img {
+    max-height:40px;
+    margin-top:-5px;
 }
  .mainheading h1.sitetitle {
      font-family:Righteous;
