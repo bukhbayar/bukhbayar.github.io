@@ -65,12 +65,29 @@
 				<!-- Begin Menu -->
 				<ul class="navbar-nav ml-auto">
 					{% if page.url == "/" %}
-					<li class="nav-item active">
-						{% else %}
-					<li class="nav-item">
-						{% endif %}
+						<li class="nav-item active">
+					{% else %}
+						<li class="nav-item">
+					{% endif %}
 						<a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
 					</li>
+
+					{% if page.url == "/account.html" %}
+						<li class="nav-item active">
+					{% else %}
+						<li class="nav-item">
+					{% endif %}
+						<a class="nav-link" href="{{ site.baseurl }}/account">My Account</a>
+					</li>
+
+					{% if page.url == "/write.html" %}
+						<li class="nav-item active">
+					{% else %}
+						<li class="nav-item">
+					{% endif %}
+						<a class="nav-link" href="{{ site.baseurl }}/write">Write Post</a>
+					</li>
+
 				</ul>
 				<!-- End Menu -->
 			</div>
