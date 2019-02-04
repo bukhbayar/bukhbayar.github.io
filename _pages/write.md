@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My Account
+title: Write a new post
 comments: false
 ---
 
-# My Account
+# Write a new post

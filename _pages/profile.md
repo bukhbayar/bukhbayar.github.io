@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Write post
+title: My Profile
 comments: false
 ---
 
-# Write Post
+# My Profile
