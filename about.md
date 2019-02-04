@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-comments: false
+comments: true
 ---
 
 # About
