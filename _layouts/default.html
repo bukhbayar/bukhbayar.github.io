@@ -64,36 +64,21 @@
 			<div class="collapse navbar-collapse" id="navbarMediumish">
 				<!-- Begin Menu -->
 				<ul class="navbar-nav ml-auto">
-					{% if page.url == "/" %}
+
+					{% if page.url == "/pages/profile.html" %}
 						<li class="nav-item active">
 					{% else %}
 						<li class="nav-item">
 					{% endif %}
-						<a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
+						<a class="nav-link" href="{{ site.baseurl }}/pages/profile">My Profile</a>
 					</li>
 
-					{% if page.url == "/account/account.html" %}
-						<li class="nav-item active">
-					{% else %}
-						<li class="nav-item">
-					{% endif %}
-						<a class="nav-link" href="{{ site.pages.profile.url | absolute_url }}">My Account</a>
-					</li>
-
-					{% if page.url == "/account/write.html" %}
+					{% if page.url == "/pages/write.html" %}
 						<li class="nav-item active">
 					{% else %}
 						<li class="nav-item">
 					{% endif %}
 						<a class="nav-link" href="{{ site.baseurl }}/pages/write">Write Post</a>
-					</li>
-
-					{% if page.url == "/about.html" %}
-						<li class="nav-item active">
-					{% else %}
-						<li class="nav-item">
-					{% endif %}			
-						<a class="nav-link" href="{{ site.baseurl }}/about">About</a>
 					</li>
 
 				</ul>
@@ -102,7 +87,6 @@
 		</div>
 	</nav>
 	<!-- End Navigation ================================================== -->
-	<!-- https://helloworld.mn/jekyll/tutorial/2018/01/11/quick-start-guide.html -->
 	<div class="site-content">
 		<div class="container">
 
