@@ -4,5 +4,3 @@ title: My Profile
 comments: false
 editor: false
 ---
-
-# My Profile

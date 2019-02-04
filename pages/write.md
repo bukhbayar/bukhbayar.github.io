@@ -5,4 +5,3 @@ comments: false
 editor: true
 ---
 
-# Write a new post
