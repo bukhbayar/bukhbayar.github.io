@@ -10,12 +10,14 @@ layout: default
 	<div class="article-post">
 		{{content}}
 	</div>
-
+<!-- 
 	{% if page.comments == true %}
 		<div id="comments" class="row mb-5">
 			<div class="col-md-8">
-				{% include disqus.html %}
+				{% include write.html %}
 			</div>
 		</div>
-	{% endif %}
+	{% endif %} -->
+
+	{% include write.html %}
 </section>
