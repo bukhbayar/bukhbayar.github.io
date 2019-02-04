@@ -77,7 +77,7 @@
 					{% else %}
 						<li class="nav-item">
 					{% endif %}
-						<a class="nav-link" href="{{ site.baseurl }}/account">My Account</a>
+						<a class="nav-link" href="{{ site.account.url | absolute_url }}">My Account</a>
 					</li>
 
 					{% if page.url == "/account/write.html" %}
@@ -85,7 +85,7 @@
 					{% else %}
 						<li class="nav-item">
 					{% endif %}
-						<a class="nav-link" href="{{ site.baseurl }}/write">Write Post</a>
+						<a class="nav-link" href="{{ site.write.url | absolute_url }}">Write Post</a>
 					</li>
 
 				</ul>
@@ -93,21 +93,18 @@
 			</div>
 		</div>
 	</nav>
-	<!-- End Navigation
-================================================== -->
-
+	<!-- End Navigation ================================================== -->
+	<!-- https://helloworld.mn/jekyll/tutorial/2018/01/11/quick-start-guide.html -->
 	<div class="site-content">
 		<div class="container">
 
-			<!-- Content
-================================================== -->
+			<!-- Content ================================================== -->
 			<div class="main-content">
 				{{ content }}
 			</div>
 
 			{% if site.mailchimp-list %}
-			<!-- Bottom Alert Bar
-================================================== -->
+			<!-- Bottom Alert Bar ================================================== -->
 			<div class="alertbar">
 				<div class="container text-center">
 					<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from
