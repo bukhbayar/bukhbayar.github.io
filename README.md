@@ -1,4 +1,4 @@
-# A blog hosted on Github pages
+# A website hosted on Github pages
 
 ## 1. Data Science portfolio
 ## 2. Blogging platform
