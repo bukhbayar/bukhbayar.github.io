@@ -12,8 +12,7 @@ Before I dive into deep, I am starting with a post about how I created, why It m
 Many of you already know, started using GitHub pages which gives us an opportunity to host a static website for free. 
 For those people who new for GitHub pages, I will try to explain briefly.
 
-
-![A screenshot of old blog](old-blog.pn)
+![a screenshot of old blog]({{ site.baseurl }}/assets/images/old-blog.png)
 
 Working on it ...
 
