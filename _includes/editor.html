@@ -9,4 +9,16 @@
 	});
 
 	simplemde.isPreviewActive();
+
+
+	$.getJSON("https://helloworldpro.herokuapp.com/CLIENT_ID/SECRET_CODE", {
+		format: "json"
+	})
+	.done(function (data) {
+		console.log('data', data)
+	})
+	.fail(function (data) {
+		console.log('failed', data)
+	});
+
 </script>
