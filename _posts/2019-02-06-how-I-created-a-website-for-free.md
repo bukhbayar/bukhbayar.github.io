@@ -13,9 +13,14 @@ Many of you already know, started using GitHub pages which gives us an opportuni
 For those people who new for GitHub pages, I will try to explain briefly.
 
 
+![A screenshot of old blog](old-blog.pn)
+
 Working on it ...
 
 ### Github pages
 
 
-### Heroku 
+
+
+### Heroku
+
