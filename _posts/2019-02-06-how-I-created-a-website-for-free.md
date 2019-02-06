@@ -10,7 +10,7 @@ First of all, it is great to meet all of you since I closed my WordPress blog in
 Before I dive into deep, I am starting with a post about how I created, and why It might be interesting to you. 
 
 ![a screenshot of old blog]({{ site.baseurl }}/assets/images/old-blog.png)
-A snapshop of old blog
+A snapshop of old blog  
 [web archive](http://web.archive.org) is a kind of time machine in the internet that I can travel to past to see old websites.
 
 Many of you already know, started using GitHub pages which gives us an opportunity to host a static website for free. 
