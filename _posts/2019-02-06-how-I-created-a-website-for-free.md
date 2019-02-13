@@ -2,6 +2,7 @@
 layout: post
 title:  "How I created a website and hosting it for free"
 author: bukhbayar
+duration: 5
 categories: [ blog ]
 image: https://miro.medium.com/max/914/1*Bwp5z9qlQAor4hw2K61gIw.jpeg
 tags: [tutorial, blog, github, heroku]
