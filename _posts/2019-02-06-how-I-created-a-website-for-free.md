@@ -2,7 +2,6 @@
 layout: post
 title:  "How I created a website and hosting it for free"
 author: bukhbayar
-duration: 5
 categories: [ blog ]
 image: https://miro.medium.com/max/914/1*Bwp5z9qlQAor4hw2K61gIw.jpeg
 tags: [tutorial, blog, github, heroku]
@@ -28,4 +27,6 @@ Here is the list of some limits on [Github Pages](https://help.github.com/articl
 - GitHub Pages sites have a soft bandwidth limit of 100GB per month.
 - GitHub Pages sites have a soft limit of 10 builds per hour.
 
-Its is static web pages but still people trying to create some dynamic contents. As far as I can see, AWS Serverless might be easy to handle if you wanted to build some dynamic contents. [Here](https://medium.com/the-everyday-developer/how-i-update-dynamic-content-on-github-pages-with-aws-lambda-ddb70e9739c7) is the example of how Lambda function used to create dynamic contents in Github pages. However, I used [heroku](http://heroku.com) because its free in some cases.
+Its is static web pages but still people trying to create some dynamic contents. As far as I can see, AWS Serverless might be easy to handle if you wanted to build some dynamic contents. [Here](https://medium.com/the-everyday-developer/how-i-update-dynamic-content-on-github-pages-with-aws-lambda-ddb70e9739c7) is the example of how Lambda function used to create dynamic contents in Github pages. However, I used [Heroku](http://heroku.com) because its free in some cases.
+
+[Secret-keeper](https://github.com/HenrikJoreteg/github-secret-keeper) is one of the solution to store your environment variables in Heroku that I am using it for creating github login.
