@@ -15,8 +15,7 @@ comments:
     appid: '309590033234952'
     num_posts: 5
     colorscheme: 'light'
-mailchimp-list: ''
-# https://helloworld.us14.list-manage.com/subscribe?u=7d32137885f6a0cea7bb073d8&id=fcdca7faa6
+# mailchimp-list: 'https://helloworld.us14.list-manage.com/subscribe?u=7d32137885f6a0cea7bb073d8&id=fcdca7faa6'
 # Authors
 authors:
   bukhbayar:
