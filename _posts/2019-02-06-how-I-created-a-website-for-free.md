@@ -8,7 +8,6 @@ credit: https://medium.com/@carmellemillar/github-and-heroku-a-beginners-guide-7
 tags: [tutorial, blog, github, heroku]
 ---
 
-
 First of all, it's great to meet you all since I closed my WordPress blog in 2011. Due to various issues, I ended up with the decision to close it, but I am glad to meet you guys again with a fresh new blog that hosted on GitHub pages and Heroku. Before I dive into deep, I am starting with a post about how I created, and why it might be interesting to you. 
 
 ![a screenshot of old blog]({{ site.baseurl }}/assets/images/old-blog.png)
@@ -30,4 +29,6 @@ Here is the list of some limits on [Github Pages](https://help.github.com/articl
 
 Its is static web pages but still people trying to create some dynamic contents. As far as I can see, AWS Serverless might be easy to handle if you wanted to build some dynamic contents. [Here](https://medium.com/the-everyday-developer/how-i-update-dynamic-content-on-github-pages-with-aws-lambda-ddb70e9739c7) is the example of how Lambda function used to create dynamic contents in Github pages. However, I used [Heroku](http://heroku.com) because its free in some cases.
 
-[Secret Keeper](https://github.com/HenrikJoreteg/github-secret-keeper) is one of the solutions to store your environment variables securely in Heroku that I am using it for creating GitHub login. The reason behind that I am creating a login feature is I wanted to try to develop a blogging platform where other bloggers, authors are able to write and publish their post. For this idea, Github pages may not be enough, but I would like to test and try all possibilities.
+[Secret Keeper](https://github.com/HenrikJoreteg/github-secret-keeper) is one of the solutions to store your environment variables securely in Heroku, which I am using it for storing credential GitHub OAuth Apps. The reason behind that I am creating a login feature is I wanted to try building a blogging platform where other bloggers, authors are may able to write and publish their post. For this idea, Github pages may not be enough as a server, but I would like to test and try all possibilities. In general, Heroku is not a free server, but for this minor server, it becomes free.
+
+As a markdown editor, I am using [SimpleMDE](https://github.com/sparksuite/simplemde-markdown-editor) which bloggers use it to write their post. When a user saves their article, Heroku service will push markdown text into GitHub automatically which is simple.
