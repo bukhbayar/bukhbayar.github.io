@@ -4,6 +4,7 @@ title:  "How I created a website and hosting it for free"
 author: bukhbayar
 categories: [ blog ]
 image: https://miro.medium.com/max/914/1*Bwp5z9qlQAor4hw2K61gIw.jpeg
+credit: https://medium.com/@carmellemillar/github-and-heroku-a-beginners-guide-7569e1151451
 tags: [tutorial, blog, github, heroku]
 ---
 
