@@ -60,18 +60,16 @@ post_class: post-template
 
 			<!-- Post Categories -->
 			<div class="after-post-tags">
-					<div class="row">
-						<ul class="tags">
-							{% assign sortedTags = page.tags | sort %}
-							{% for tag in sortedTags %}
-							<li>
-								<a href="{{ site.baseurl }}">{{ tag }}</a>
-							</li>
-							{% endfor %}
-						</ul>
-					</div>
-				</div>
-				<!-- End Categories -->
+				<ul class="tags">
+					{% assign sortedTags = page.tags | sort %}
+					{% for tag in sortedTags %}
+						<li>
+							<a href="{{ site.baseurl }}">{{ tag }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<!-- End Categories -->
 
 			<!-- Prev/Next -->
 			<div class="row PageNavigation d-flex justify-content-between font-weight-bold">
