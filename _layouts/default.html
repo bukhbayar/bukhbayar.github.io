@@ -64,7 +64,6 @@
 			<div class="collapse navbar-collapse" id="navbarMediumish">
 				<!-- Begin Menu -->
 				<ul class="navbar-nav ml-auto">
-
 					{% if page.url == "/pages/profile.html" %}
 						<li class="nav-item active">
 					{% else %}
@@ -73,14 +72,13 @@
 						<a class="nav-link" href="{{ site.baseurl }}/pages/profile">My Profile</a>
 					</li>
 
-					{% if page.url == "/pages/write.html" %}
+					{% if page.url == "/about.html" %}
 						<li class="nav-item active">
 					{% else %}
 						<li class="nav-item">
 					{% endif %}
-						<a class="nav-link" href="{{ site.baseurl }}/pages/write">Write Post</a>
+						<a class="nav-link" href="{{ site.baseurl }}/about">About</a>
 					</li>
-
 				</ul>
 				<!-- End Menu -->
 			</div>
