@@ -1,7 +1,7 @@
 /* 
 Template Name: Mediumish 
 Copyright: Sal, WowThemes.net, https://www.wowthemes.net 
-Version: 1.0.22 
+Version: 1.0.24
 License: https://www.wowthemes.net/freebies-license/ 
 */
 .mainheading {
@@ -31,11 +31,6 @@ pre {
 	overflow: auto;
 	background: #F7FAFB;
 	border-radius: 3px;
-}
-
-.nav-title {
-	font-size: 25px;
-	font-weight: 700;
 }
 
 .mediumnavigation {
@@ -207,8 +202,7 @@ span.author-meta {
 
 span.post-date,
 span.post-read {
-	color: rgba(0, 0, 0, .54);
-	font-weight: 400;
+	color: rgba(0, 0, 0, .44);
 }
 
 span.post-read-more {
@@ -238,6 +232,7 @@ span.post-read-more a:hover {
 	border-radius: 30px;
 	overflow: hidden;
 	border: 1px solid rgba(0, 0, 0, 0.04);
+	min-width: 180px;
 }
 
 .mediumnavigation .form-inline {
@@ -279,8 +274,8 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-	max-height: 40px;
-	margin-top: -10px;
+	max-height: 30px;
+	margin-right: 5px;
 }
 
 .mainheading h1.sitetitle {
@@ -288,11 +283,8 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.posttitle {
-	font-weight: 400;
-	font-size: 30px;
+	font-weight: 700;
 	margin-bottom: 1rem;
-	color: rgba(0, 0, 0, .68);
-	font-style: italic;
 }
 
 .footer {
@@ -316,7 +308,6 @@ span.post-read-more a:hover {
 	font-size: 1.1rem;
 	line-height: 1.84;
 	color: rgba(0, 0, 0, .8);
-	text-align: justify;
 }
 
 blockquote {
@@ -520,10 +511,11 @@ ul.tags li a:hover {
 
 .btn.follow {
 	border-color: #02B875;
-	padding: 0px 10px;
+	color: #1C9963;
+	padding: 3px 10px;
 	text-align: center;
-	border-radius: 4px;
-	font-size: 11px;
+	border-radius: 999em;
+	font-size: 0.85rem;
 	display: inline-block;
 }
 
@@ -540,7 +532,7 @@ ul.tags li a:hover {
 }
 
 .post-top-meta .btn.follow {
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-top: -4px;
 }
 
@@ -703,6 +695,15 @@ h6 {
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
 }
 
+.layout-page .article-post {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 1rem;
+}
+
+.layout-page .article-post p {
+	margin-bottom: 1rem;
+}
+
 img {
 	max-width: 100%;
 }
@@ -788,6 +789,7 @@ iframe {
 	font-weight: 500;
 	text-transform: lowercase;
 	font-size: 0.8rem;
+	display: inline-block;
 }
 
 .layout-page .jumbotron.fortags {
@@ -829,4 +831,8 @@ iframe {
 
 .card .img-fluid {
 	width: 100%;
+}
+
+.sticky-top-80 {
+	top: 80px;
 }
