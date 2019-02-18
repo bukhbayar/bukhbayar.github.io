@@ -23,14 +23,15 @@ portfolio: https://github.com/bukhbayar/ds-portfolio
 
 <p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-
-<!-- Identify your business so that you can collect the payments. -->
-<input type="hidden" name="business" value="F8CU3MPC2LA72" />
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations" />
+<input type="hidden" name="cmd" value="_donations" />
+<input type="hidden" name="business" value="U34CFKT8CEQQ4" />
+<input type="hidden" name="currency_code" value="AUD" />
 
 <!-- Identify the message of the kind contributor. -->
 <input type="hidden" name="contributor-message" value="Message to Sal" />
-<textarea class="w-100 d-block p-2 mb-4" type="text" name="contributor-message" placeholder="Your message to @Sal"></textarea>
+<textarea class="w-100 d-block p-2 mb-4" type="text" name="contributor-message" placeholder="Your message to @Bukhbayar"></textarea>
 
 <!-- Specify a Donate button. -->
 <input type="hidden" name="cmd" value="_donations" />
@@ -48,8 +49,8 @@ portfolio: https://github.com/bukhbayar/ds-portfolio
 <input type="hidden" name="currency_code" value="USD" />
 
 <br /><br />
-<!-- Display the payment button. -->
-<input type="image" name="submit" border="0" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" alt="PayPal - The safer, easier way to pay online" />
+<input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
 </form>
 </div>
 </div>
