@@ -10,10 +10,10 @@ portfolio: https://github.com/bukhbayar/ds-portfolio
 
 <div class="row justify-content-between">
   <div class="col-md-8 pr-5">    
-    <p>Personal blog.</p>
-    <h4>Links</h4>
-    <a href="{{ profile.linkedin }}">Linkedin</a>!
-    <a href=" {{ profile.portfolio }} ">Data Science Portfolio</a>!
+<ul>
+  <li><i class="fab fa-linkedin"></i><a href=" {{ profile.linkedin }} " target="_blank">Linkedin</a></li>
+  <li><i class="fab fa-github"></i><a href=" {{ profile.portfolio }} " target="_blank">Data Science Portfolio</a></li>
+</ul>
 </div>
 
 <div class="col-md-4">
