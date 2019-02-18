@@ -9,11 +9,16 @@ favicon: 'assets/images/logo.png'
 baseurl: ""
 google_analytics: 'UA-33110211-1'
 feature: false
+include: ["_pages"]
+permalink: /:title/
+
+# Comments
 comments:
   facebook:
     appid: '309590033234952'
     num_posts: 5
     colorscheme: 'light'
+
 # Authors
 authors:
   bukhbayar:
@@ -24,9 +29,13 @@ authors:
     web: https://helloworld.mn
     twitter: https://twitter.com/bokhoo
     description: ""
+
 # Plugins
 plugins: 
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-archives
     
 # Archives
