@@ -2,6 +2,4 @@ _site
 .DS_Store
 *.swp
 .sass-cache
-.vscode
-.env
-drafts
+*~
