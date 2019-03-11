@@ -92,6 +92,7 @@ ga('send', 'pageview');
 			</div>
 			{% endif %}
 		</div>
+		{% if site.jumbotron %}
 		<!-- Categories Jumbotron ================================================== -->
 		<div class="jumbotron fortags">
 			<div class="d-md-flex h-100">
@@ -116,7 +117,8 @@ ga('send', 'pageview');
 					{% assign categories_list = nil %}
 				</div>
 			</div>
-		</div> 
+		</div>
+		{% endif %}
 		<!-- Begin Footer ================================================== -->
 		<footer class="footer">
 			<div class="container">
