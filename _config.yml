@@ -1,6 +1,6 @@
 # Site
 
-name: "Data#2"
+name: "Data2.xyz"
 description: ""
 meta_description: "A website hosted with github pages"
 logo: 'assets/images/logo.png'
@@ -23,10 +23,10 @@ comments:
 authors:
   bukhbayar:
     name: Bukhbayar Purevsuren
-    display_name: Buku
+    display_name: Buk
     gravatar: bc1aff1eabac45bb90eff3419993e95f
     email: bokhbayar@gmail.com
-    web: https://helloworld.mn
+    web: https://data2.xyz
     twitter: https://twitter.com/bokhoo
     description: ""
 
