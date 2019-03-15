@@ -11,3 +11,9 @@
   font-size: 12px;
   display: block;
 }
+
+.card .img-fluid {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
